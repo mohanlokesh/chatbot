@@ -250,4 +250,118 @@ If you encounter issues:
 1. Check your PostgreSQL connection
 2. Ensure Rasa is installed correctly
 3. Look at the console output for error messages
-4. Make sure all required ports are available (5000, 5005, 5055, 8501) 
+4. Make sure all required ports are available (5000, 5005, 5055, 8501)
+
+# Rasa Conflict Testing Tools
+
+This repository contains tools for checking and fixing inconsistencies in Rasa project files.
+
+## Test Script
+
+The `test_rasa_tools.py` script is designed to verify the functionality of the Rasa conflict checker and fixer tools. It creates a set of test files with deliberate conflicts and verifies that:
+
+1. The conflict checker correctly identifies all issues
+2. The conflict fixer properly resolves the identified issues
+
+### Prerequisites
+
+Make sure you have all the required dependencies installed:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Usage
+
+To run the test script:
+
+```bash
+python test_rasa_tools.py
+```
+
+Optional arguments:
+- `--verbose`: Enable verbose output
+- `--checker-script`: Path to the checker script (default: "check_rasa_conflicts.py")
+- `--fixer-script`: Path to the fixer script (default: "fix_rasa_conflicts.py")
+
+Example with custom script paths:
+```bash
+python test_rasa_tools.py --checker-script ./scripts/check.py --fixer-script ./scripts/fix.py --verbose
+```
+
+### Test Cases
+
+The script creates test files with these deliberate conflicts:
+- Missing intents and actions in domain.yml
+- Intents in nlu.yml not defined in domain.yml
+- Undefined actions in stories.yml
+- Missing RegexEntityExtractor in config.yml
+- Missing action class in actions.py
+
+## Expected Results
+
+When running the test script:
+1. The checker should identify all conflicts
+2. The fixer should resolve all conflicts
+3. A second run of the checker should find no remaining issues
+
+## Troubleshooting
+
+If the tests fail:
+- Check that your checker and fixer scripts are accessible
+- Verify that all dependencies are installed
+- Use the `--verbose` flag for more detailed output
+
+## License
+
+MIT
+
+# Rasa Tools Tester
+
+This script tests the functionality of Rasa conflict checker and fixer tools by:
+1. Creating test files with deliberate conflicts
+2. Running the checker to detect conflicts
+3. Running the fixer to resolve conflicts
+4. Verifying that the fixes were applied correctly
+
+## Usage
+
+```bash
+python test_rasa_tools.py --checker path/to/checker.py --fixer path/to/fixer.py --verbose
+```
+
+### Arguments
+
+- `--checker`: Path to the Rasa conflict checker script (required)
+- `--fixer`: Path to the Rasa conflict fixer script (required)
+- `--verbose`: Enable verbose output (optional)
+
+## Requirements
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Example
+
+```bash
+python test_rasa_tools.py --checker rasa_conflict_checker.py --fixer rasa_conflict_fixer.py --verbose
+```
+
+The script will:
+- Create temporary test files with conflicts
+- Run the conflict checker
+- Run the conflict fixer
+- Verify if the fixes were correctly applied
+- Report the results
+- Clean up temporary files
+
+## Conflicts Tested
+
+1. Missing intents in domain.yml
+2. Missing actions in domain.yml
+3. Missing extractors in config.yml
+4. Undefined actions in stories.yml
+5. Undefined intents in stories.yml and rules.yml 
