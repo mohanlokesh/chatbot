@@ -11,3 +11,77 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+# Order status rules
+- rule: Check order status when order number is provided
+  condition:
+  - slot_was_set:
+    - order_number: any
+  steps:
+  - intent: ask_order_status
+  - action: action_check_order_status
+
+- rule: Ask for order number when checking order status without it
+  condition:
+  - slot_was_not_set:
+    - order_number: any
+  steps:
+  - intent: ask_order_status
+  - action: utter_ask_order_status
+
+# Order items rules
+- rule: List order items when order number is provided
+  condition:
+  - slot_was_set:
+    - order_number: any
+  steps:
+  - intent: ask_order_items
+  - action: action_list_order_items
+
+- rule: Ask for order number when listing items without it
+  condition:
+  - slot_was_not_set:
+    - order_number: any
+  steps:
+  - intent: ask_order_items
+  - action: utter_ask_order_items
+
+# User orders rules
+- rule: Get user orders when email is provided
+  condition:
+  - slot_was_set:
+    - user_email: any
+  steps:
+  - intent: ask_user_orders
+  - action: action_get_user_orders
+
+- rule: Ask for email when getting orders without it
+  condition:
+  - slot_was_not_set:
+    - user_email: any
+  steps:
+  - intent: ask_user_orders
+  - action: utter_ask_user_orders
+
+# Handle inform intent to capture entities
+- rule: Handle inform with order number
+  condition:
+  - slot_was_not_set:
+    - order_number: any
+  steps:
+  - intent: inform
+    entities:
+    - order_number: any
+  - slot_was_set:
+    - order_number: any
+
+- rule: Handle inform with email
+  condition:
+  - slot_was_not_set:
+    - user_email: any
+  steps:
+  - intent: inform
+    entities:
+    - email: any
+  - slot_was_set:
+    - user_email: any

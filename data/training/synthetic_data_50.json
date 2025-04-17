@@ -1,0 +1,252 @@
+[
+  {
+    "question": "What are the steps to renew a settings?",
+    "answer": "To renew a settings, visit our website and use the search function to find the settings you're looking for. Once you've found it, select the 'renew' option from the available actions.",
+    "category": "Technical"
+  },
+  {
+    "question": "How do I verify my shipping address?",
+    "answer": "We've made it easy to verify your shipping address. Just follow these steps: 1) Login to your account, 2) Go to the shipping address dashboard, 3) Select the 'verify' option, 4) Confirm your choice.",
+    "category": "Returns"
+  },
+  {
+    "question": "Why can't I upgrade my device?",
+    "answer": "If you want to upgrade your device, please contact our customer support team. They are available 24/7 and will guide you through the process step by step.",
+    "category": "Account"
+  },
+  {
+    "question": "I need help with manage my account. What should I do?",
+    "answer": "Our help center has a detailed guide on how to manage your account. Visit our website, go to the Help section, and search for 'manage account' to find step-by-step instructions.",
+    "category": "Returns"
+  },
+  {
+    "question": "Do you support update for smartphone?",
+    "answer": "Our help center has a detailed guide on how to update your smartphone. Visit our website, go to the Help section, and search for 'update smartphone' to find step-by-step instructions.",
+    "category": "Shipping"
+  },
+  {
+    "question": "What is the best way to renew settings?",
+    "answer": "We've made it easy to renew your settings. Just follow these steps: 1) Login to your account, 2) Go to the settings dashboard, 3) Select the 'renew' option, 4) Confirm your choice.",
+    "category": "Payments"
+  },
+  {
+    "question": "I need help with track my password. What should I do?",
+    "answer": "track a password is simple with our new self-service tools. Just log into your account, go to 'My passwords', select the one you want to track, and click the 'track' button.",
+    "category": "General"
+  },
+  {
+    "question": "Where can I find information about sync email?",
+    "answer": "sync a email is simple with our new self-service tools. Just log into your account, go to 'My emails', select the one you want to sync, and click the 'sync' button.",
+    "category": "Billing"
+  },
+  {
+    "question": "When should I customize my account?",
+    "answer": "To customize your account, you'll need to login to your account and navigate to the account section. From there, click on the 'customize' button and follow the on-screen instructions.",
+    "category": "Security"
+  },
+  {
+    "question": "What are the steps to reset a notification settings?",
+    "answer": "reset a notification settings is simple with our new self-service tools. Just log into your account, go to 'My notification settingss', select the one you want to reset, and click the 'reset' button.",
+    "category": "Billing"
+  },
+  {
+    "question": "When should I sync my order?",
+    "answer": "To sync your order, you'll first need to ensure you have the necessary permissions. Check with your account administrator, then navigate to the order section and select 'sync'.",
+    "category": "Setup"
+  },
+  {
+    "question": "Is it possible to manage my email?",
+    "answer": "manage a email is simple with our new self-service tools. Just log into your account, go to 'My emails', select the one you want to manage, and click the 'manage' button.",
+    "category": "Setup"
+  },
+  {
+    "question": "How do I cancel my delivery?",
+    "answer": "If you want to cancel your delivery, please contact our customer support team. They are available 24/7 and will guide you through the process step by step.",
+    "category": "Returns"
+  },
+  {
+    "question": "Why can't I downgrade my account?",
+    "answer": "If you want to downgrade your account, please contact our customer support team. They are available 24/7 and will guide you through the process step by step.",
+    "category": "Troubleshooting"
+  },
+  {
+    "question": "How do I track my return request?",
+    "answer": "To track a return request, visit our website and use the search function to find the return request you're looking for. Once you've found it, select the 'track' option from the available actions.",
+    "category": "Billing"
+  },
+  {
+    "question": "When should I downgrade my warranty claim?",
+    "answer": "downgrade a warranty claim is simple with our new self-service tools. Just log into your account, go to 'My warranty claims', select the one you want to downgrade, and click the 'downgrade' button.",
+    "category": "Troubleshooting"
+  },
+  {
+    "question": "Is it possible to backup my warranty claim?",
+    "answer": "If you want to backup your warranty claim, please contact our customer support team. They are available 24/7 and will guide you through the process step by step.",
+    "category": "Shipping"
+  },
+  {
+    "question": "Why can't I downgrade my computer?",
+    "answer": "downgrade a computer is simple with our new self-service tools. Just log into your account, go to 'My computers', select the one you want to downgrade, and click the 'downgrade' button.",
+    "category": "General"
+  },
+  {
+    "question": "Why can't I customize my profile?",
+    "answer": "You can customize your profile by going to your account settings, selecting 'profile management', and choosing the 'customize' option. Make sure to save your changes when you're done.",
+    "category": "Payments"
+  },
+  {
+    "question": "How do I configure my password?",
+    "answer": "Our help center has a detailed guide on how to configure your password. Visit our website, go to the Help section, and search for 'configure password' to find step-by-step instructions.",
+    "category": "Billing"
+  },
+  {
+    "question": "I need help with restore my login credentials. What should I do?",
+    "answer": "We've made it easy to restore your login credentials. Just follow these steps: 1) Login to your account, 2) Go to the login credentials dashboard, 3) Select the 'restore' option, 4) Confirm your choice.",
+    "category": "Billing"
+  },
+  {
+    "question": "I need help with update my settings. What should I do?",
+    "answer": "We've made it easy to update your settings. Just follow these steps: 1) Login to your account, 2) Go to the settings dashboard, 3) Select the 'update' option, 4) Confirm your choice.",
+    "category": "Billing"
+  },
+  {
+    "question": "Do you support configure for account?",
+    "answer": "Our help center has a detailed guide on how to configure your account. Visit our website, go to the Help section, and search for 'configure account' to find step-by-step instructions.",
+    "category": "Payments"
+  },
+  {
+    "question": "What are the steps to uninstall a two-factor authentication?",
+    "answer": "If you want to uninstall your two-factor authentication, please contact our customer support team. They are available 24/7 and will guide you through the process step by step.",
+    "category": "Returns"
+  },
+  {
+    "question": "Can you explain how to renew two-factor authentication?",
+    "answer": "To renew a two-factor authentication, visit our website and use the search function to find the two-factor authentication you're looking for. Once you've found it, select the 'renew' option from the available actions.",
+    "category": "General"
+  },
+  {
+    "question": "Can you explain how to setup email?",
+    "answer": "To setup your email, you'll need to login to your account and navigate to the email section. From there, click on the 'setup' button and follow the on-screen instructions.",
+    "category": "Troubleshooting"
+  },
+  {
+    "question": "Can you explain how to configure notification settings?",
+    "answer": "The process to configure your notification settings varies depending on your subscription plan. Please refer to our documentation or contact customer support for personalized assistance.",
+    "category": "Security"
+  },
+  {
+    "question": "When should I reset my notification settings?",
+    "answer": "If you want to reset your notification settings, please contact our customer support team. They are available 24/7 and will guide you through the process step by step.",
+    "category": "Returns"
+  },
+  {
+    "question": "Can you explain how to deactivate password?",
+    "answer": "You can deactivate your password by going to your account settings, selecting 'password management', and choosing the 'deactivate' option. Make sure to save your changes when you're done.",
+    "category": "Security"
+  },
+  {
+    "question": "Is it possible to update my device?",
+    "answer": "To update your device, you'll need to login to your account and navigate to the device section. From there, click on the 'update' button and follow the on-screen instructions.",
+    "category": "Setup"
+  },
+  {
+    "question": "Do you support customize for order?",
+    "answer": "If you want to customize your order, please contact our customer support team. They are available 24/7 and will guide you through the process step by step.",
+    "category": "Account"
+  },
+  {
+    "question": "I need help with deactivate my computer. What should I do?",
+    "answer": "To deactivate your computer, you'll need to login to your account and navigate to the computer section. From there, click on the 'deactivate' button and follow the on-screen instructions.",
+    "category": "Security"
+  },
+  {
+    "question": "Is it possible to activate my privacy settings?",
+    "answer": "To activate a privacy settings, visit our website and use the search function to find the privacy settings you're looking for. Once you've found it, select the 'activate' option from the available actions.",
+    "category": "Troubleshooting"
+  },
+  {
+    "question": "What are the steps to verify a email?",
+    "answer": "The best way to verify your email is through our mobile app. Download it from the app store, login, and select 'email' from the menu. Then, tap on 'verify' and follow the steps provided.",
+    "category": "Returns"
+  },
+  {
+    "question": "Do you support backup for purchase?",
+    "answer": "To backup your purchase, you'll first need to ensure you have the necessary permissions. Check with your account administrator, then navigate to the purchase section and select 'backup'.",
+    "category": "General"
+  },
+  {
+    "question": "What is the best way to cancel subscription?",
+    "answer": "To cancel your subscription, you'll first need to ensure you have the necessary permissions. Check with your account administrator, then navigate to the subscription section and select 'cancel'.",
+    "category": "Orders"
+  },
+  {
+    "question": "Why can't I uninstall my preferences?",
+    "answer": "To uninstall your preferences, you'll need to login to your account and navigate to the preferences section. From there, click on the 'uninstall' button and follow the on-screen instructions.",
+    "category": "General"
+  },
+  {
+    "question": "Do you support track for purchase?",
+    "answer": "We've made it easy to track your purchase. Just follow these steps: 1) Login to your account, 2) Go to the purchase dashboard, 3) Select the 'track' option, 4) Confirm your choice.",
+    "category": "Security"
+  },
+  {
+    "question": "Where can I find information about manage return request?",
+    "answer": "We've made it easy to manage your return request. Just follow these steps: 1) Login to your account, 2) Go to the return request dashboard, 3) Select the 'manage' option, 4) Confirm your choice.",
+    "category": "Billing"
+  },
+  {
+    "question": "Why can't I cancel my payment method?",
+    "answer": "Our help center has a detailed guide on how to cancel your payment method. Visit our website, go to the Help section, and search for 'cancel payment method' to find step-by-step instructions.",
+    "category": "Returns"
+  },
+  {
+    "question": "I need help with deactivate my privacy settings. What should I do?",
+    "answer": "To deactivate your privacy settings, you'll first need to ensure you have the necessary permissions. Check with your account administrator, then navigate to the privacy settings section and select 'deactivate'.",
+    "category": "General"
+  },
+  {
+    "question": "When should I manage my computer?",
+    "answer": "Our help center has a detailed guide on how to manage your computer. Visit our website, go to the Help section, and search for 'manage computer' to find step-by-step instructions.",
+    "category": "Security"
+  },
+  {
+    "question": "How do I upgrade my return request?",
+    "answer": "upgrade a return request is simple with our new self-service tools. Just log into your account, go to 'My return requests', select the one you want to upgrade, and click the 'upgrade' button.",
+    "category": "Shipping"
+  },
+  {
+    "question": "I need help with renew my shipping address. What should I do?",
+    "answer": "Our help center has a detailed guide on how to renew your shipping address. Visit our website, go to the Help section, and search for 'renew shipping address' to find step-by-step instructions.",
+    "category": "General"
+  },
+  {
+    "question": "When should I verify my email?",
+    "answer": "To verify a email, visit our website and use the search function to find the email you're looking for. Once you've found it, select the 'verify' option from the available actions.",
+    "category": "General"
+  },
+  {
+    "question": "What is the best way to track payment method?",
+    "answer": "To track a payment method, visit our website and use the search function to find the payment method you're looking for. Once you've found it, select the 'track' option from the available actions.",
+    "category": "Setup"
+  },
+  {
+    "question": "When should I verify my delivery?",
+    "answer": "To verify a delivery, visit our website and use the search function to find the delivery you're looking for. Once you've found it, select the 'verify' option from the available actions.",
+    "category": "Troubleshooting"
+  },
+  {
+    "question": "When should I recover my membership?",
+    "answer": "To recover your membership, you'll first need to ensure you have the necessary permissions. Check with your account administrator, then navigate to the membership section and select 'recover'.",
+    "category": "Returns"
+  },
+  {
+    "question": "Why can't I setup my computer?",
+    "answer": "To setup your computer, you'll need to login to your account and navigate to the computer section. From there, click on the 'setup' button and follow the on-screen instructions.",
+    "category": "Payments"
+  },
+  {
+    "question": "How do I transfer my notification settings?",
+    "answer": "You can transfer your notification settings by going to your account settings, selecting 'notification settings management', and choosing the 'transfer' option. Make sure to save your changes when you're done.",
+    "category": "Payments"
+  }
+]

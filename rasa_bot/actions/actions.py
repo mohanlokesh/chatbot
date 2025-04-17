@@ -105,6 +105,24 @@ class ActionCheckOrderStatus(Action):
             session.close()
 
 
+class ActionHandleOrderStatus(Action):
+    """
+    Alternative implementation for handling order status.
+    This is a compatibility action to resolve conflicts in stories.
+    """
+
+    def name(self) -> Text:
+        return "action_handle_order_status"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        
+        # Simply delegate to ActionCheckOrderStatus for consistency
+        action = ActionCheckOrderStatus()
+        return action.run(dispatcher, tracker, domain)
+
+
 class ActionListOrderItems(Action):
     """Action to list items in an order"""
 

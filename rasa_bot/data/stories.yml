@@ -29,38 +29,84 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
-- story: order status path
+# Order status stories
+- story: order status inquiry - no order number
   steps:
   - intent: ask_order_status
   - action: utter_ask_order_status
   - intent: inform
+    entities:
+    - order_number: "123456"
   - action: action_check_order_status
 
-- story: order status path with order number
+- story: order status inquiry - with order number
   steps:
   - intent: ask_order_status
+    entities:
+    - order_number: "123456"
   - action: action_check_order_status
 
-- story: order items path
+# Order items stories
+- story: order items inquiry - no order number
   steps:
   - intent: ask_order_items
   - action: utter_ask_order_items
   - intent: inform
+    entities:
+    - order_number: "123456"
   - action: action_list_order_items
 
-- story: order items path with order number
+- story: order items inquiry - with order number
   steps:
   - intent: ask_order_items
+    entities:
+    - order_number: "123456"
   - action: action_list_order_items
 
-- story: user orders path
+# User orders stories
+- story: user orders inquiry - no email
   steps:
   - intent: ask_user_orders
   - action: utter_ask_user_orders
   - intent: inform
+    entities:
+    - email: "user@example.com"
   - action: action_get_user_orders
 
-- story: user orders path with email
+- story: user orders inquiry - with email
   steps:
   - intent: ask_user_orders
+    entities:
+    - email: "user@example.com"
   - action: action_get_user_orders
+
+# Other intent stories
+- story: account inquiry
+  steps:
+  - intent: ask_account
+  - action: utter_ask_account
+
+- story: payment methods inquiry
+  steps:
+  - intent: ask_payment_methods
+  - action: utter_ask_payment_methods
+
+- story: payment options inquiry
+  steps:
+  - intent: ask_payments
+  - action: utter_ask_payments
+
+- story: support inquiry
+  steps:
+  - intent: ask_support
+  - action: utter_ask_support
+
+- story: return policy inquiry
+  steps:
+  - intent: ask_return_policy
+  - action: utter_ask_return_policy
+
+- story: shipping info inquiry
+  steps:
+  - intent: ask_shipping_info
+  - action: utter_ask_shipping_info

@@ -136,6 +136,53 @@ nlu:
     - Get my order history for [user123@mail.com](email)
     - Find my past orders with [customer.support@domain.com](email)
 
+- intent: ask_payment_methods
+  examples: |
+    - What payment methods do you accept?
+    - How can I pay for my order?
+    - Do you accept credit cards?
+    - Can I pay with PayPal?
+    - What cards do you take?
+    - Do you accept Apple Pay?
+    - Do you take American Express?
+    - What are my payment options?
+    - Can I pay with my debit card?
+    - How do I pay for my purchase?
+    - Do you offer financing?
+    - Is it possible to pay by bank transfer?
+    - What payments do you support?
+    - Can I use Google Pay?
+
+- intent: ask_account
+  examples: |
+    - How do I reset my password?
+    - How do I create an account?
+    - I forgot my login credentials
+    - Can't access my account
+    - How do I update my account information?
+    - How to change my email address?
+    - Where do I update my password?
+    - I can't login
+    - How do I recover my account?
+    - My account is locked
+    - Help with my user account
+    - Need to update my contact information
+
+- intent: ask_support
+  examples: |
+    - How do I contact customer support?
+    - What's your support phone number?
+    - Is there a live chat option?
+    - How can I get help with an issue?
+    - What's your email for support?
+    - Do you offer 24/7 support?
+    - How to get technical assistance?
+    - Need to speak to a representative
+    - Where can I file a complaint?
+    - How do I reach your customer service?
+    - Support contact info please
+    - What are your support hours?
+
 - intent: inform
   examples: |
     - My order number is [123456](order_number)

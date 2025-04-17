@@ -15,6 +15,8 @@ intents:
   - ask_shipping_info
   - ask_payment_methods
   - ask_product_info
+  - ask_account
+  - ask_support
   - inform
   - out_of_scope
   - nlu_fallback
@@ -81,7 +83,7 @@ responses:
   - text: "We offer standard shipping (3-5 business days) and express shipping (1-2 business days). Shipping costs vary based on your location and order size."
 
   utter_ask_payment_methods:
-  - text: "We accept Visa, Mastercard, American Express, and PayPal for payments."
+  - text: "We accept Visa, Mastercard, American Express, and PayPal for payments. We also offer financing options through Affirm for orders over $100."
 
   utter_ask_product_info:
   - text: "I can help you with product information. Which product would you like to know more about?"
@@ -101,10 +103,17 @@ responses:
   utter_ask_user_orders:
   - text: "I can list your recent orders. Could you please provide your email address?"
 
+  utter_ask_account:
+  - text: "I can help with account-related questions. What specific information do you need?"
+
+  utter_ask_support:
+  - text: "I'm here to support you. You can contact our customer service team at 1-800-123-4567 or support@example.com during business hours."
+
 actions:
   - action_check_order_status
   - action_list_order_items
   - action_get_user_orders
+  - action_handle_order_status
 
 session_config:
   session_expiration_time: 60
