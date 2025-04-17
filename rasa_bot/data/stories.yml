@@ -1,0 +1,66 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: order status path
+  steps:
+  - intent: ask_order_status
+  - action: utter_ask_order_status
+  - intent: inform
+  - action: action_check_order_status
+
+- story: order status path with order number
+  steps:
+  - intent: ask_order_status
+  - action: action_check_order_status
+
+- story: order items path
+  steps:
+  - intent: ask_order_items
+  - action: utter_ask_order_items
+  - intent: inform
+  - action: action_list_order_items
+
+- story: order items path with order number
+  steps:
+  - intent: ask_order_items
+  - action: action_list_order_items
+
+- story: user orders path
+  steps:
+  - intent: ask_user_orders
+  - action: utter_ask_user_orders
+  - intent: inform
+  - action: action_get_user_orders
+
+- story: user orders path with email
+  steps:
+  - intent: ask_user_orders
+  - action: action_get_user_orders

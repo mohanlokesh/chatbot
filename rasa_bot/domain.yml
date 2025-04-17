@@ -1,0 +1,111 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - thank
+  - ask_help
+  - ask_order_status
+  - ask_return_policy
+  - ask_shipping_info
+  - ask_payment_methods
+  - ask_product_info
+  - inform
+  - out_of_scope
+  - nlu_fallback
+  - ask_order_items
+  - ask_user_orders
+
+entities:
+  - order_number
+  - email
+  - user_email
+
+slots:
+  order_number:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: order_number
+  order_status:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: custom
+  user_email:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: email
+      
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_thank:
+  - text: "You're welcome! Is there anything else I can help you with?"
+
+  utter_ask_help:
+  - text: "I'm here to help! What would you like to know about?"
+
+  utter_ask_order_status:
+  - text: "I can help you check your order status. Could you please provide your order number?"
+
+  utter_ask_return_policy:
+  - text: "Our return policy allows returns within 30 days of purchase. Items must be in their original condition with all tags attached."
+
+  utter_ask_shipping_info:
+  - text: "We offer standard shipping (3-5 business days) and express shipping (1-2 business days). Shipping costs vary based on your location and order size."
+
+  utter_ask_payment_methods:
+  - text: "We accept Visa, Mastercard, American Express, and PayPal for payments."
+
+  utter_ask_product_info:
+  - text: "I can help you with product information. Which product would you like to know more about?"
+
+  utter_deny:
+  - text: "I understand. Is there something else I can help you with?"
+
+  utter_out_of_scope:
+  - text: "I'm sorry, I'm not sure I can help with that. Could you try rephrasing your question?"
+
+  utter_default:
+  - text: "I'm not sure I understand. Could you please rephrase your question?"
+
+  utter_ask_order_items:
+  - text: "I can tell you what's in your order. Could you please provide your order number?"
+
+  utter_ask_user_orders:
+  - text: "I can list your recent orders. Could you please provide your email address?"
+
+actions:
+  - action_check_order_status
+  - action_list_order_items
+  - action_get_user_orders
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

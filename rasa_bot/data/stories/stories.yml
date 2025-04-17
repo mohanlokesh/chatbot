@@ -1,0 +1,82 @@
+version: "3.1"
+
+stories:
+
+- story: greet and help
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_help
+  - action: utter_ask_help
+
+- story: greet and goodbye
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: thank and goodbye
+  steps:
+  - intent: thank
+  - action: utter_thank
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: order status inquiry
+  steps:
+  - intent: ask_order_status
+  - action: utter_ask_order_status
+  - intent: inform
+  - action: action_handle_order_status
+
+- story: return policy inquiry
+  steps:
+  - intent: ask_return_policy
+  - action: utter_ask_return_policy
+  - intent: thank
+  - action: utter_thank
+
+- story: shipping information inquiry
+  steps:
+  - intent: ask_shipping_info
+  - action: utter_ask_shipping_info
+  - intent: thank
+  - action: utter_thank
+
+- story: payment methods inquiry
+  steps:
+  - intent: ask_payment_methods
+  - action: utter_ask_payment_methods
+  - intent: thank
+  - action: utter_thank
+
+- story: product information inquiry
+  steps:
+  - intent: ask_product_info
+  - action: utter_ask_product_info
+  - intent: deny
+  - action: utter_deny
+
+- story: out of scope
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+  
+- story: greeting with product inquiry and thanks
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_product_info
+  - action: utter_ask_product_info
+  - intent: thank
+  - action: utter_thank
+
+- story: shipping and payment inquiry
+  steps:
+  - intent: ask_shipping_info
+  - action: utter_ask_shipping_info
+  - intent: ask_payment_methods
+  - action: utter_ask_payment_methods
+  - intent: thank
+  - action: utter_thank 

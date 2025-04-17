@@ -1,0 +1,87 @@
+[
+  {
+    "question": "How do I track my order?",
+    "answer": "You can track your order by logging into your account and navigating to 'Order History'. Click on the specific order and then select 'Track Package'. Alternatively, you can use the tracking number provided in your shipping confirmation email.",
+    "category": "Shipping"
+  },
+  {
+    "question": "where is my order",
+    "answer": "You can track your order by logging into your account and navigating to 'Order History'. Click on the specific order and then select 'Track Package'. Alternatively, you can use the tracking number provided in your shipping confirmation email.",
+    "category": "Shipping"
+  },
+  {
+    "question": "i want to check on my package status",
+    "answer": "You can track your order by logging into your account and navigating to 'Order History'. Click on the specific order and then select 'Track Package'. Alternatively, you can use the tracking number provided in your shipping confirmation email.",
+    "category": "Shipping"
+  },
+  {
+    "question": "how to see where my order is",
+    "answer": "You can track your order by logging into your account and navigating to 'Order History'. Click on the specific order and then select 'Track Package'. Alternatively, you can use the tracking number provided in your shipping confirmation email.",
+    "category": "Shipping"
+  },
+  {
+    "question": "What is your return policy?",
+    "answer": "Our return policy allows you to return items within 30 days of delivery for a full refund. Items must be in their original condition with tags attached. Certain products like personalized items, perishables, and intimate goods cannot be returned.",
+    "category": "Returns"
+  },
+  {
+    "question": "how do i return something",
+    "answer": "Our return policy allows you to return items within 30 days of delivery for a full refund. Items must be in their original condition with tags attached. To start a return, log into your account, go to 'Order History', select the order, and click 'Return Item'.",
+    "category": "Returns"
+  },
+  {
+    "question": "can i get a refund",
+    "answer": "Yes, you can get a refund for items returned within 30 days of delivery. Items must be in their original condition with tags attached. Certain products like personalized items, perishables, and intimate goods cannot be returned.",
+    "category": "Returns"
+  },
+  {
+    "question": "I forgot my password. How do I reset it?",
+    "answer": "To reset your password, click on the 'Forgot Password' link on the login page. Enter your email address, and we'll send you a password reset link. The link is valid for 24 hours.",
+    "category": "Account"
+  },
+  {
+    "question": "password reset help",
+    "answer": "To reset your password, click on the 'Forgot Password' link on the login page. Enter your email address, and we'll send you a password reset link. The link is valid for 24 hours.",
+    "category": "Account"
+  },
+  {
+    "question": "i can't login to my account",
+    "answer": "If you're having trouble logging in, you may need to reset your password. Click on the 'Forgot Password' link on the login page. Enter your email address, and we'll send you a password reset link. The link is valid for 24 hours. If you're still having issues, contact customer support.",
+    "category": "Account"
+  },
+  {
+    "question": "What payment methods do you accept?",
+    "answer": "We accept Visa, Mastercard, American Express, Discover, PayPal, Apple Pay, and Google Pay. We also offer financing options through Affirm for orders over $100.",
+    "category": "Payments"
+  },
+  {
+    "question": "can i pay with paypal",
+    "answer": "Yes, we accept PayPal as a payment method, along with Visa, Mastercard, American Express, Discover, Apple Pay, and Google Pay. We also offer financing options through Affirm for orders over $100.",
+    "category": "Payments"
+  },
+  {
+    "question": "do you accept apple pay",
+    "answer": "Yes, we accept Apple Pay as a payment method, along with Visa, Mastercard, American Express, Discover, PayPal, and Google Pay. We also offer financing options through Affirm for orders over $100.",
+    "category": "Payments"
+  },
+  {
+    "question": "what cards do you take",
+    "answer": "We accept all major credit cards including Visa, Mastercard, American Express, and Discover. We also accept digital payment methods like PayPal, Apple Pay, and Google Pay.",
+    "category": "Payments"
+  },
+  {
+    "question": "Do you offer international shipping?",
+    "answer": "Yes, we offer international shipping to over 100 countries. Shipping rates and delivery times vary by location. You can see the shipping options available for your country during checkout.",
+    "category": "Shipping"
+  },
+  {
+    "question": "ship to europe?",
+    "answer": "Yes, we ship to Europe as part of our international shipping service which covers over 100 countries. Shipping rates and delivery times vary by location. You can see the specific shipping options available for your country during checkout.",
+    "category": "Shipping"
+  },
+  {
+    "question": "do you ship worldwide",
+    "answer": "Yes, we offer international shipping to over 100 countries worldwide. Shipping rates and delivery times vary by location. You can see the shipping options available for your country during checkout.",
+    "category": "Shipping"
+  }
+] 

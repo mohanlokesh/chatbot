@@ -1,0 +1,15 @@
+version: "3.1"
+
+nlu:
+- intent: ask_account
+  examples: |
+    - How do I reset my password?
+
+- intent: ask_payments
+  examples: |
+    - What payment methods do you accept?
+
+- intent: ask_support
+  examples: |
+    - How do I contact customer support?
+

@@ -1,0 +1,188 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - good afternoon
+    - hey there
+    - hi there
+    - greetings
+    - howdy
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you around
+    - see you later
+    - have a nice day
+    - catch you later
+    - bye bye
+    - have a good day
+    - talk to you later
+
+- intent: thank
+  examples: |
+    - thanks
+    - thank you
+    - thanks a lot
+    - thanks so much
+    - appreciate it
+    - thank you for your help
+    - thanks for the information
+    - that's helpful, thanks
+    - great, thank you
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - sure
+    - ok
+    - okay
+    - sounds good
+    - I agree
+    - that's right
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - nope
+    - that's not right
+    - I disagree
+    - no thanks
+
+- intent: ask_order_status
+  examples: |
+    - Where is my order?
+    - I want to track my order
+    - What's the status of my order?
+    - Has my order shipped yet?
+    - Check my order status
+    - Order tracking
+    - When will my order arrive?
+    - Is my order on the way?
+    - Can you check my order status?
+    - I'd like to know where my package is
+    - Track order [123456](order_id)
+    - What happened to order [A8B9C7](order_id)?
+    - Status for order [900-123-456](order_id)
+    - Is order [ABC123](order_id) shipped yet?
+    - Can you tell me where order [ZXY987](order_id) is?
+
+- intent: inform
+  examples: |
+    - [ORD-12345](order_id)
+    - My order number is [ORD-98765](order_id)
+    - It's [ORD-54321](order_id)
+    - The order ID is [ORD-13579](order_id)
+    - Order [ORD-24680](order_id)
+    - [12345](order_id)
+    - [98765](order_id)
+    - [54321](order_id)
+    - Order number [12345](order_id)
+    - It is [ORD-11111](order_id)
+    - My order is [ORD-22222](order_id)
+    - Order id [ORD-33333](order_id)
+
+- intent: ask_return_policy
+  examples: |
+    - What's your return policy?
+    - How do I return an item?
+    - Can I return something I bought?
+    - Tell me about returns
+    - How long do I have to return?
+    - Return policy information
+    - Do you accept returns?
+    - How do refunds work?
+    - Can I get my money back if I return?
+    - What's the process for returning an order?
+    - Are returns free?
+    - Do I need receipt for returns?
+
+- intent: ask_shipping_info
+  examples: |
+    - How much is shipping?
+    - Do you ship internationally?
+    - Shipping information
+    - How long does shipping take?
+    - Tell me about your shipping options
+    - Do you offer free shipping?
+    - What are the shipping costs?
+    - How do you ship orders?
+    - What shipping carriers do you use?
+    - Can I choose the shipping method?
+    - Is expedited shipping available?
+    - Shipping to [USA](company)
+
+- intent: ask_payment_methods
+  examples: |
+    - What payment methods do you accept?
+    - Can I pay with PayPal?
+    - Do you take credit cards?
+    - Is Apple Pay accepted?
+    - Payment options
+    - Can I pay with a gift card?
+    - Do you accept international credit cards?
+    - Can I use multiple payment methods?
+    - Is it possible to pay with bank transfer?
+    - What cards do you accept?
+    - Can I pay later?
+
+- intent: ask_product_info
+  examples: |
+    - Tell me about [iPhone 14](product_name)
+    - What can you tell me about [Samsung Galaxy](product_name)?
+    - Information on [Nike Air Max](product_name)
+    - Details about [Sony headphones](product_name)
+    - What's [PlayStation 5](product_name)?
+    - Features of [Apple Watch](product_name)
+    - How good is [Kindle Paperwhite](product_name)?
+    - I want to know more about [Dyson vacuum](product_name)
+    - Does [Google Pixel](product_name) have good camera?
+    - What's special about [AirPods Pro](product_name)?
+    - Price of [MacBook Pro](product_name)
+
+- intent: ask_help
+  examples: |
+    - I need help
+    - Can you help me?
+    - What can you do?
+    - How does this work?
+    - What can I ask you?
+    - Show me what you can do
+    - I'm confused
+    - Help
+    - What are your capabilities?
+    - What kind of questions can you answer?
+    - What can you tell me?
+
+- intent: out_of_scope
+  examples: |
+    - Who is the president?
+    - Tell me a joke
+    - What's the weather today?
+    - Can you book a flight for me?
+    - I want to play a game
+    - Sing me a song
+    - Do you believe in aliens?
+    - What's the meaning of life?
+    - How tall is Mount Everest?
+    - Who won the world cup?
+    - Tell me about quantum physics 

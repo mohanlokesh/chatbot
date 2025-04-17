@@ -1,0 +1,77 @@
+[
+  {
+    "question": "What is your business hours?",
+    "answer": "Our business hours are Monday through Friday from 9AM to 5PM EST. We are closed on weekends and major holidays.",
+    "category": "General"
+  },
+  {
+    "question": "Do you offer free shipping?",
+    "answer": "Yes, we offer free standard shipping on all orders over $50 within the United States. International shipping rates vary by destination.",
+    "category": "Shipping"
+  },
+  {
+    "question": "How can I contact customer service?",
+    "answer": "You can contact our customer service team by phone at 1-800-123-4567, by email at support@example.com, or through the live chat feature on our website during business hours.",
+    "category": "Contact"
+  },
+  {
+    "question": "What is your return policy?",
+    "answer": "We offer a 30-day return policy on most items. Products must be in original condition with tags attached. Some items like personalized products or clearance items may not be eligible for return.",
+    "category": "Returns"
+  },
+  {
+    "question": "Do you ship internationally?",
+    "answer": "Yes, we ship to over 50 countries worldwide. International shipping typically takes 7-14 business days, and customs fees may apply depending on your country.",
+    "category": "Shipping"
+  },
+  {
+    "question": "How do I track my order?",
+    "answer": "You can track your order by logging into your account and viewing your order history, or by clicking the tracking link in your shipping confirmation email.",
+    "category": "Orders"
+  },
+  {
+    "question": "Do you offer gift wrapping?",
+    "answer": "Yes, we offer gift wrapping for $5 per item. You can select this option during checkout and include a personalized message to be printed on a gift card.",
+    "category": "Services"
+  },
+  {
+    "question": "What payment methods do you accept?",
+    "answer": "We accept all major credit cards (Visa, Mastercard, American Express, Discover), PayPal, Apple Pay, and Google Pay. We also offer financing options through Affirm.",
+    "category": "Payments"
+  },
+  {
+    "question": "How do I create an account?",
+    "answer": "To create an account, click the 'Sign Up' button in the top right corner of our website. Enter your email address and create a password. You'll receive a confirmation email to verify your account.",
+    "category": "Account"
+  },
+  {
+    "question": "Do you have a loyalty program?",
+    "answer": "Yes, our loyalty program rewards you with points for every purchase. You earn 1 point for every dollar spent, and points can be redeemed for discounts on future purchases.",
+    "category": "Rewards"
+  },
+  {
+    "question": "What is your warranty policy?",
+    "answer": "Most of our products come with a 1-year limited warranty against manufacturing defects. Premium products may have extended warranties. Please check the product page for specific warranty information.",
+    "category": "Warranty"
+  },
+  {
+    "question": "Can I change or cancel my order?",
+    "answer": "You can change or cancel your order within 1 hour of placing it by contacting our customer service team. After this window, orders enter processing and cannot be modified.",
+    "category": "Orders"
+  },
+  {
+    "question": "Do you price match?",
+    "answer": "Yes, we offer price matching for identical items sold by major retailers. To request a price match, contact customer service with a link to the competitor's current pricing within 7 days of your purchase.",
+    "category": "Pricing"
+  },
+  {
+    "question": "How do I use a promo code?",
+    "answer": "To use a promo code, enter it in the designated field during checkout before completing your purchase. The discount will be automatically applied to eligible items.",
+    "category": "Discounts"
+  },
+  {
+    "question": "Are my personal and payment details secure?",
+    "answer": "Yes, we use industry-standard SSL encryption technology to protect your personal and payment information. We are PCI compliant and never store complete credit card information on our servers.",
+    "category": "Security"
+  }
+] 

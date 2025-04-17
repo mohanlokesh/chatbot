@@ -1,0 +1,154 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: ask_order_status
+  examples: |
+    - Where is my order?
+    - Can you check my order status?
+    - What's the status of my order?
+    - Has my order shipped yet?
+    - I want to know where my order is
+    - Is my order still processing?
+    - Has my order been delivered?
+    - Can you tell me the status of order [123456](order_number)?
+    - Check status for order [ABC789](order_number)
+    - What's happening with order [ORD-001](order_number)?
+    - Order [XYZ-123-456](order_number) status
+    - I'd like to track order [10293847](order_number)
+    - Status for [ZZ-9876](order_number)?
+    - Where is order [LMN-456](order_number)?
+
+- intent: ask_order_items
+  examples: |
+    - What's in my order?
+    - Can you list the items in my order?
+    - What did I order?
+    - Show me what's in order [123456](order_number)
+    - What items are in order [ABC789](order_number)?
+    - Can you tell me what I purchased in order [ORD-001](order_number)?
+    - List the items for [XYZ-123-456](order_number)
+    - What products are in my order [10293847](order_number)?
+    - Tell me what's in [ZZ-9876](order_number)
+    - Items in order [LMN-456](order_number)
+    - What did I buy in order [123456](order_number)?
+
+- intent: ask_user_orders
+  examples: |
+    - Show me my orders
+    - What orders have I made?
+    - List my recent orders
+    - Can you show my purchase history?
+    - I want to see all my orders
+    - Show orders for [user@example.com](email)
+    - Find orders for [customer@gmail.com](email)
+    - Orders for [john.doe@test.com](email)
+    - What orders are associated with [user@company.org](email)?
+    - List purchases for [jane@example.net](email)
+    - Get my order history for [user123@mail.com](email)
+    - Find my past orders with [customer.support@domain.com](email)
+
+- intent: inform
+  examples: |
+    - My order number is [123456](order_number)
+    - Order [ABC789](order_number)
+    - [ORD-001](order_number)
+    - The order is [XYZ-123-456](order_number)
+    - [10293847](order_number)
+    - [ZZ-9876](order_number)
+    - [LMN-456](order_number)
+    - My email is [user@example.com](email)
+    - [customer@gmail.com](email)
+    - [john.doe@test.com](email)
+    - [user@company.org](email)
+    - [jane@example.net](email)
+    - [user123@mail.com](email)
+    - [customer.support@domain.com](email)

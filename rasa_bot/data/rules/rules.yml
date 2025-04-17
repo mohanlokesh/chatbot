@@ -1,0 +1,28 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say thanks anytime the user says thanks
+  steps:
+  - intent: thank
+  - action: utter_thank
+
+- rule: Respond to out of scope messages
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+
+- rule: Respond to help request
+  steps:
+  - intent: ask_help
+  - action: utter_ask_help
+
+- rule: Activate fallback if confidence is low
+  steps:
+  - intent: nlu_fallback
+  - action: utter_default 
